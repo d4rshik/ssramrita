@@ -468,6 +468,12 @@ padding: 0px 0px;
     padding-right: 50px;
     margin-top: 0px;
   }
+#title h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Unna', sans-serif;
+  }
 
 
 
@@ -542,4 +548,5 @@ padding: 0px 0px;
     color: rgb(60,60,60);
     border-bottom: 3px solid rgb(60,60,60);
     transition: width 0.5s;
+}
 }
