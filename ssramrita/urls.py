@@ -22,7 +22,6 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     url('admin/', admin.site.urls),
-    url(r'home/',Homepage),
     url(r'projects/(?P<category>[\w ]*)/$',Projectpage),
     url(r'blog/(?P<id>[\w\d-]*)/$',Blogpage),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
